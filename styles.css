@@ -1,0 +1,63 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0.5px;
+}
+
+.header{
+    flex-shrink: 0;
+    display: flex;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+}
+
+.secone{
+    flex-grow: 1;
+    display: flex;
+    padding-bottom: 16px;
+    background-color: #1a222e;
+}
+
+.sectwo{
+    flex-grow: 2;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.secthree{
+    flex-grow: 2;
+    display: flex;
+    padding-bottom: 16px;
+    background-color: #E5e7eb;
+    color: black;
+}
+
+.secfour{
+    display: flex;
+    flex-grow: 2;
+    padding: 20px;
+    justify-content: center;
+}
+
+.call{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.footer {
+    flex-grow: 1;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+  }
+
+.im{
+    width: 200px
+}
+
+img{
+    width: 150px;
+}
