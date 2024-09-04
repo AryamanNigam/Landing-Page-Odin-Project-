@@ -7,23 +7,72 @@ html, body{
 
 .header{
     flex-shrink: 0;
+    flex-grow: 1;
     display: flex;
+    justify-content: space-between;
     padding-bottom: 10px;
     background-color: #1F2937;
 }
+
+.logo{
+    font-size: 24px;
+    color: #f9FaF8;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 .secone{
     flex-grow: 1;
     display: flex;
     padding-bottom: 16px;
-    background-color: #1a222e;
+    background-color: #1F2937;
 }
 
 .sectwo{
-    flex-grow: 2;
+    flex-grow: 1;
+    flex-direction: column;
     display: flex;
     padding: 10px 0px;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+  }
+
+.title{
+    display: flex;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+.text {
+    text-align: center;
+    max-width: 100px;
+  }
 
 .secthree{
     flex-grow: 2;
@@ -43,6 +92,7 @@ html, body{
 .call{
     display: flex;
     box-sizing: border-box;
+    background-color: #3882f6;
 }
 
 .footer {
@@ -58,6 +108,3 @@ html, body{
     width: 200px
 }
 
-img{
-    width: 150px;
-}
